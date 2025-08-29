@@ -56,3 +56,16 @@
 .carousel-caption p {
     font-size: clamp(1rem, 2vw, 1.5rem);
 }
+
+.carousel-caption h5 {
+    font-size: clamp(1.5rem, 3vw, 3rem);
+    font-weight: bold;
+    color: #fff;
+    text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.7);
+}
+
+.carousel-caption p {
+    font-size: clamp(1rem, 2vw, 1.5rem);
+    color: #f1f1f1;
+    text-shadow: 1px 1px 6px rgba(0, 0, 0, 0.6);
+}
