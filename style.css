@@ -1,0 +1,47 @@
+:root {
+    /* Bootstrap theme colors */
+    --bs-primary: #0d6efd;
+    --bs-dark: #212529;
+    --bs-light: #f8f9fa;
+    --bs-success: #198754;
+    --bs-danger: #dc3545;
+    --bs-warning: #ffc107;
+    --bs-info: #0dcaf0;
+    --bs-white: #ffffff;
+    --bs-gray-100: #f8f9fa;
+    --bs-gray-200: #e9ecef;
+}
+
+/* Table Borders */
+.table-bordered {
+    border: 0.2rem solid var(--bs-primary);
+}
+
+/* Fix carousel size */
+#heroCarousel {
+    width: 100%;
+    /* Full page width */
+    max-height: 1000px;
+    /* Set fixed height (adjust as you need) */
+    overflow: hidden;
+    /* Hide overflow from images */
+
+}
+
+.carousel-img {
+    height: 550px;
+    /* reduce height (you can change to 300px, 500px etc.) */
+    object-fit: cover;
+    /* makes sure the image fills the box without stretching */
+}
+
+
+.carousel-caption {
+    top: 50%;
+    /* vertically center */
+    left: 10%;
+    /* push from left side */
+    transform: translateY(-50%);
+    text-align: left;
+    /* align text to left */
+}
